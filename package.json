@@ -1,0 +1,35 @@
+{
+  "name": "js_tools",
+  "version": "1.0.0",
+  "description": "A javascript source transition tools based on AST.",
+  "main": "js_tools.js",
+  "scripts": {
+    "start": "node js_tools.js -h",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/do4way/js_tools.git"
+  },
+  "keywords": [
+    "ast"
+  ],
+  "author": "Yongwei Dou <yongwei.dou@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/do4way/js_tools/issues"
+  },
+  "homepage": "https://github.com/do4way/js_tools",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "doctrine": "^0.7.0",
+    "escodegen": "^1.7.0",
+    "esprima": "^2.7.0",
+    "iconv-lite": "^0.4.13",
+    "minimist": "^1.2.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "jscs": "^2.5.0"
+  }
+}
