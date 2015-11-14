@@ -25,6 +25,12 @@ Usage: js_tools.js command [options]
         default file_encoding is utf8
 ```
 
+Windows プラットフォームで実行する場合に、下記のようにnodeコマンドを付ける必要があります。
+
+```
+node js_tools.js -h
+```
+
 ## Javascriptのソース変換コマンド
 
 ### split
